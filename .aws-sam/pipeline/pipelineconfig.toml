@@ -2,22 +2,22 @@ version = 0.1
 [default]
 [default.pipeline_bootstrap]
 [default.pipeline_bootstrap.parameters]
-pipeline_user = "arn:aws:iam::746606725297:user/aws-sam-cli-managed-firststage-pipeli-PipelineUser-1WI3VTTXWYO24"
+pipeline_user = "arn:aws:iam::732499942675:user/aws-sam-cli-managed-dev-lin-pipeline-PipelineUser-1VHB9FH2PN4C5"
 
-[firststage]
-[firststage.pipeline_bootstrap]
-[firststage.pipeline_bootstrap.parameters]
-pipeline_execution_role = "arn:aws:iam::746606725297:role/aws-sam-cli-managed-firststa-PipelineExecutionRole-10LQZLG6T9U1D"
-cloudformation_execution_role = "arn:aws:iam::746606725297:role/aws-sam-cli-managed-first-CloudFormationExecutionR-1W15S477HQBRG"
-artifacts_bucket = "aws-sam-cli-managed-firststage-pi-artifactsbucket-221beqkapfnv"
+[dev-lin]
+[dev-lin.pipeline_bootstrap]
+[dev-lin.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1CENO9XYIXMUB"
+cloudformation_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-I28L3Z0EQUIP"
+artifacts_bucket = "aws-sam-cli-managed-dev-pipeline-artifactsbucket-eiif4khf11se"
 image_repository = ""
 region = "us-east-1"
 
-[secondstage]
-[secondstage.pipeline_bootstrap]
-[secondstage.pipeline_bootstrap.parameters]
-pipeline_execution_role = "arn:aws:iam::746606725297:role/aws-sam-cli-managed-secondst-PipelineExecutionRole-11EWCTQ2NIMH7"
-cloudformation_execution_role = "arn:aws:iam::746606725297:role/aws-sam-cli-managed-secon-CloudFormationExecutionR-O2F6VAOHVC9Z"
-artifacts_bucket = "aws-sam-cli-managed-secondstage-p-artifactsbucket-ixcv7ajgq02y"
+[prod-lin]
+[prod-lin.pipeline_bootstrap]
+[prod-lin.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1CENO9XYIXMUB"
+cloudformation_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-I28L3Z0EQUIP"
+artifacts_bucket = "aws-sam-cli-managed-dev-pipeline-artifactsbucket-eiif4khf11se"
 image_repository = ""
 region = "us-east-1"
