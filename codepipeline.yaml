@@ -32,7 +32,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "lhchen42/helloworldlambda"
+    Default: "lhchen42/hellowordlambda"
   MainGitBranch:
     Type: String
     Default: "main"
