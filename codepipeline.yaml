@@ -47,13 +47,13 @@ Parameters:
     Default: "sam-app-lin"
   TestingPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1CENO9XYIXMUB"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-lin-PipelineExecutionRole-7IIKMDYHEMR1"
   TestingCloudFormationExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-I28L3Z0EQUIP"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-l-CloudFormationExecutionR-LGRT75ARE9UI"
   TestingArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-dev-pipeline-artifactsbucket-eiif4khf11se"
+    Default: "aws-sam-cli-managed-dev-lin-pipel-artifactsbucket-10ckiibb5xez6"
   TestingImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
@@ -68,13 +68,13 @@ Parameters:
     Default: "sam-app-lin"
   ProdPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1CENO9XYIXMUB"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-prod-lin-PipelineExecutionRole-1IJQLCL9JZM6E"
   ProdCloudFormationExecutionExeRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-I28L3Z0EQUIP"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-38Y5EVDPZPJ9"
   ProdArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-dev-pipeline-artifactsbucket-eiif4khf11se"
+    Default: "aws-sam-cli-managed-prod-lin-pipe-artifactsbucket-m0fom7kw7u89"
   ProdImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
