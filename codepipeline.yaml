@@ -44,16 +44,16 @@ Parameters:
     Default: "us-east-1"
   TestingStackName:
     Type: String
-    Default: "sam-app-lin"
+    Default: "sam-app-hellowordlambda-lin"
   TestingPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-lin-PipelineExecutionRole-7IIKMDYHEMR1"
+    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-47016RGZFK1"
   TestingCloudFormationExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-dev-l-CloudFormationExecutionR-LGRT75ARE9UI"
+    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-1ET2OQ1IVWYSA"
   TestingArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-dev-lin-pipel-artifactsbucket-10ckiibb5xez6"
+    Default: "aws-sam-cli-managed-dev-pipeline-artifactsbucket-1cdyv6aqzxhaj"
   TestingImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
@@ -65,16 +65,16 @@ Parameters:
     Default: "us-east-1"
   ProdStackName:
     Type: String
-    Default: "sam-app-lin"
+    Default: "sam-app-helloworldlambda-lin-2"
   ProdPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-prod-lin-PipelineExecutionRole-1IJQLCL9JZM6E"
+    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-O3EU8SYSJPVK"
   ProdCloudFormationExecutionExeRole:
     Type: String
-    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-38Y5EVDPZPJ9"
+    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-4ZR4CFMUMN3K"
   ProdArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-prod-lin-pipe-artifactsbucket-m0fom7kw7u89"
+    Default: "aws-sam-cli-managed-prod-pipeline-artifactsbucket-n2ca44jgrpvj"
   ProdImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
