@@ -8,5 +8,6 @@ phases:
       # trigger the unit tests here
       - pip install --upgrade pip
       - pip install pytest
+      - pwd
       - echo 'Running unit tests'
-      - python -m pytest .\unit_test\
+      - python -m pytest
