@@ -6,8 +6,8 @@ phases:
   build:
     commands:
       # trigger the unit tests here
-      - pip install --upgrade pip
-      - pip install pytest boto3 moto
-      - pwd
       - echo 'Running unit tests'
-      - python -m pytest unit_test/
+      - pip install --upgrade pip
+      - pip install -r tests/requirements.txt
+      - python -m pytest ./tests/unit -v
+      - echo 'unit tests done'

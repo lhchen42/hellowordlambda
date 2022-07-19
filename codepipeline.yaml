@@ -44,7 +44,7 @@ Parameters:
     Default: "us-east-1"
   TestingStackName:
     Type: String
-    Default: "sam-app-hellowordlambda-lin"
+    Default: "sam-app-dev-hellowordlambda"
   TestingPipelineExecutionRole:
     Type: String
     Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-47016RGZFK1"
@@ -65,16 +65,16 @@ Parameters:
     Default: "us-east-1"
   ProdStackName:
     Type: String
-    Default: "sam-app-helloworldlambda-lin-2"
+    Default: "sam-app-prod-hellowordlambda"
   ProdPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-O3EU8SYSJPVK"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-tv-prod-PipelineExecutionRole-10KVYFT9T831G"
   ProdCloudFormationExecutionExeRole:
     Type: String
-    Default: "arn:aws:iam::746606725297:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-4ZR4CFMUMN3K"
+    Default: "arn:aws:iam::732499942675:role/aws-sam-cli-managed-tv-pr-CloudFormationExecutionR-1N1IF5N19HI5O"
   ProdArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-prod-pipeline-artifactsbucket-n2ca44jgrpvj"
+    Default: "aws-sam-cli-managed-tv-prod-pipel-artifactsbucket-j1ksxa3ecmmu"
   ProdImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,

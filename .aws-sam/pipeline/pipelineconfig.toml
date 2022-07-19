@@ -21,3 +21,12 @@ cloudformation_execution_role = "arn:aws:iam::746606725297:role/aws-sam-cli-mana
 artifacts_bucket = "aws-sam-cli-managed-prod-pipeline-artifactsbucket-n2ca44jgrpvj"
 image_repository = ""
 region = "us-east-1"
+
+[tv-prod]
+[tv-prod.pipeline_bootstrap]
+[tv-prod.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-tv-prod-PipelineExecutionRole-10KVYFT9T831G"
+cloudformation_execution_role = "arn:aws:iam::732499942675:role/aws-sam-cli-managed-tv-pr-CloudFormationExecutionR-1N1IF5N19HI5O"
+artifacts_bucket = "aws-sam-cli-managed-tv-prod-pipel-artifactsbucket-j1ksxa3ecmmu"
+image_repository = ""
+region = "us-east-1"
