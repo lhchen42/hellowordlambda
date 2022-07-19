@@ -40,7 +40,7 @@ def test_HelloWorld(aws_credentials):
     response = helloworld.lambda_handler(payload, {})
     body = json.loads(response['body'])
     assert response['statusCode'] == 200
-    assert body['message'] == "hello world"
+    assert body['message'] == "hello world new version"
 
 
 
